@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 import com.elberthbrandao.dslearn.entities.User;
 import com.elberthbrandao.dslearn.repositories.UserRepository;
 
+@SuppressWarnings("deprecation")
 @Component
 public class JwtTokenEnhancer implements TokenEnhancer{
 
